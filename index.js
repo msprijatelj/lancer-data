@@ -1,26 +1,26 @@
 "use strict"
 
-import * as actions from './lib/actions.json' assert { type: "json" };
-import * as backgrounds from './lib/backgrounds.json' assert { type: "json" };
-import * as core_bonuses from './lib/core_bonuses.json' assert { type: "json" };
-import * as environments from './lib/environments.json' assert { type: "json" };
-import * as factions from './lib/factions.json' assert { type: "json" };
-import * as frames from './lib/frames.json' assert { type: "json" };
-import * as glossary from './lib/glossary.json' assert { type: "json" };
-import * as info from './lib/info.json' assert { type: "json" };
-import * as manufacturers from './lib/manufacturers.json' assert { type: "json" };
-import * as mods from './lib/mods.json' assert { type: "json" };
-import * as pilot_gear from './lib/pilot_gear.json' assert { type: "json" };
-import * as reserves from './lib/reserves.json' assert { type: "json" };
-import * as rules from './lib/rules.json' assert { type: "json" };
-import * as sitreps from './lib/sitreps.json' assert { type: "json" };
-import * as skills from './lib/skills.json' assert { type: "json" };
-import * as statuses from './lib/statuses.json' assert { type: "json" };
-import * as systems from './lib/systems.json' assert { type: "json" };
-import * as tables from './lib/tables.json' assert { type: "json" };
-import * as tags from './lib/tags.json' assert { type: "json" };
-import * as talents from './lib/talents.json' assert { type: "json" };
-import * as weapons from './lib/weapons.json' assert { type: "json" };
+import actions from './lib/actions.json' assert { type: "json" };
+import backgrounds from './lib/backgrounds.json' assert { type: "json" };
+import core_bonuses from './lib/core_bonuses.json' assert { type: "json" };
+import environments from './lib/environments.json' assert { type: "json" };
+import factions from './lib/factions.json' assert { type: "json" };
+import frames from './lib/frames.json' assert { type: "json" };
+import glossary from './lib/glossary.json' assert { type: "json" };
+import info from './lib/info.json' assert { type: "json" };
+import manufacturers from './lib/manufacturers.json' assert { type: "json" };
+import mods from './lib/mods.json' assert { type: "json" };
+import pilot_gear from './lib/pilot_gear.json' assert { type: "json" };
+import reserves from './lib/reserves.json' assert { type: "json" };
+import rules from './lib/rules.json' assert { type: "json" };
+import sitreps from './lib/sitreps.json' assert { type: "json" };
+import skills from './lib/skills.json' assert { type: "json" };
+import statuses from './lib/statuses.json' assert { type: "json" };
+import systems from './lib/systems.json' assert { type: "json" };
+import tables from './lib/tables.json' assert { type: "json" };
+import tags from './lib/tags.json' assert { type: "json" };
+import talents from './lib/talents.json' assert { type: "json" };
+import weapons from './lib/weapons.json' assert { type: "json" };
 
 const data = {
   actions: actions,
