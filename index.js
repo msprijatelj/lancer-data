@@ -22,31 +22,33 @@ import tags from './lib/tags.json' assert { type: "json" };
 import talents from './lib/talents.json' assert { type: "json" };
 import weapons from './lib/weapons.json' assert { type: "json" };
 
-const data = {
-  actions: actions,
-  backgrounds: backgrounds,
-  core_bonuses: core_bonuses,
-  environments: environments,
-  factions: factions,
-  frames: frames,
-  glossary: glossary,
-  info: info,
-  manufacturers: manufacturers,
-  mods: mods,
-  npc_classes: [],
-  npc_features: [],
-  npc_templates: [],
-  pilot_gear: pilot_gear,
-  reserves: reserves,
-  rules: rules,
-  sitreps: sitreps,
-  skills: skills,
-  statuses: statuses,
-  systems: systems,
-  tables: tables,
-  tags: tags,
-  talents: talents,
-  weapons: weapons,
-}
+const npc_classes = [];
+const npc_features = [];
+const npc_templates = [];
 
-export default data
+export default {
+  actions,
+  backgrounds,
+  core_bonuses,
+  environments,
+  factions,
+  frames,
+  glossary,
+  info,
+  manufacturers,
+  mods,
+  npc_classes,
+  npc_features,
+  npc_templates,
+  pilot_gear,
+  reserves,
+  rules,
+  sitreps,
+  skills,
+  statuses,
+  systems,
+  tables,
+  tags,
+  talents,
+  weapons,
+}
