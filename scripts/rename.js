@@ -1,8 +1,7 @@
 #!/usr/bin/node
 
-const fs = require('fs');
-
-const path = require('path');
+import * as fs from 'fs';
+import * as path from 'path';
 
 const folderPath = './lib';
 const ignore = ['manufacturers.json', 'weapons.json', 'systems.json', 'mods.json'];

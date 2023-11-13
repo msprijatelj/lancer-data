@@ -1,30 +1,52 @@
 "use strict"
 
+import * as actions from './lib/actions.json' assert { type: "json" };
+import * as backgrounds from './lib/backgrounds.json' assert { type: "json" };
+import * as core_bonuses from './lib/core_bonuses.json' assert { type: "json" };
+import * as environments from './lib/environments.json' assert { type: "json" };
+import * as factions from './lib/factions.json' assert { type: "json" };
+import * as frames from './lib/frames.json' assert { type: "json" };
+import * as glossary from './lib/glossary.json' assert { type: "json" };
+import * as info from './lib/info.json' assert { type: "json" };
+import * as manufacturers from './lib/manufacturers.json' assert { type: "json" };
+import * as mods from './lib/mods.json' assert { type: "json" };
+import * as pilot_gear from './lib/pilot_gear.json' assert { type: "json" };
+import * as reserves from './lib/reserves.json' assert { type: "json" };
+import * as rules from './lib/rules.json' assert { type: "json" };
+import * as sitreps from './lib/sitreps.json' assert { type: "json" };
+import * as skills from './lib/skills.json' assert { type: "json" };
+import * as statuses from './lib/statuses.json' assert { type: "json" };
+import * as systems from './lib/systems.json' assert { type: "json" };
+import * as tables from './lib/tables.json' assert { type: "json" };
+import * as tags from './lib/tags.json' assert { type: "json" };
+import * as talents from './lib/talents.json' assert { type: "json" };
+import * as weapons from './lib/weapons.json' assert { type: "json" };
+
 const data = {
-  actions: require('./lib/actions.json'),
-  backgrounds: require('./lib/backgrounds.json'),
-  core_bonuses: require('./lib/core_bonuses.json'),
-  environments: require('./lib/environments.json'),
-  factions: require('./lib/factions.json'),
-  frames: require('./lib/frames.json'),
-  glossary: require('./lib/glossary.json'),
-  info: require('./lib/info.json'),
-  manufacturers: require('./lib/manufacturers.json'),
-  mods: require('./lib/mods.json'),
+  actions: actions,
+  backgrounds: backgrounds,
+  core_bonuses: core_bonuses,
+  environments: environments,
+  factions: factions,
+  frames: frames,
+  glossary: glossary,
+  info: info,
+  manufacturers: manufacturers,
+  mods: mods,
   npc_classes: [],
   npc_features: [],
   npc_templates: [],
-  pilot_gear: require('./lib/pilot_gear.json'),
-  reserves: require('./lib/reserves.json'),
-  rules: require('./lib/rules.json'),
-  sitreps: require('./lib/sitreps.json'),
-  skills: require('./lib/skills.json'),
-  statuses: require('./lib/statuses.json'),
-  systems: require('./lib/systems.json'),
-  tables: require('./lib/tables.json'),
-  tags: require('./lib/tags.json'),
-  talents: require('./lib/talents.json'),
-  weapons: require('./lib/weapons.json'),
+  pilot_gear: pilot_gear,
+  reserves: reserves,
+  rules: rules,
+  sitreps: sitreps,
+  skills: skills,
+  statuses: statuses,
+  systems: systems,
+  tables: tables,
+  tags: tags,
+  talents: talents,
+  weapons: weapons,
 }
 
-module.exports = data
+export default data
